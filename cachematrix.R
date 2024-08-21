@@ -30,7 +30,7 @@ cachemean <- function(x, ...) {
 
 ## Write a short comment describing this function: 
 This function calculates the mean of the special “vector” created with the above function. It first checks to see if the mean has already been calculated. 
-If so, it gets the mean from the cache and skips the computation. If not, it calculates the mean of the data and sets the value of the mean in the cache via the setmean function.
+If so, it gets the mean from the cache and skips the computation. If not, it calculates the mean of the data and sets the value of the mean in the cache via the setmean function
 
 cacheSolve <- function(x, ...) {
 ## Return a matrix that is the inverse of 'x'
